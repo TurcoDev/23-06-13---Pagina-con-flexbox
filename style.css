@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header > div.marca{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.container-logo{
+  width: 15%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAdVBMVEX///8AAADr6+srKyvw8PDHx8f7+/tgYGAiIiKVlZXp6el9fX2Hh4fX19dWVlaLi4uqqqq0tLTd3d01NTUXFxfLy8sbGxtycnKhoaFCQkJJSUlqamrBwcFRUVEKCgrj4+O6uro8PDxvb29FRUVlZWWZmZl4eHiVb+nJAAAEhklEQVR4nO3b25aaMBgFYMIh4glQBE+I6Mz4/o9Ykj+BAM7qzEXFkv3d1ETaFXZDgCQ6DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D94lpxveZl/7JN1UxccPo95GZ6MOgtlZ2bIl1dR92nWhbLOQtmR9X0Gw7qZhfHw8yCG78zHbuurrcsfZ8PY0R+7uS/EneIX0QiLsZv8QkF72rtlUhWb5OEZUaRxXVcdzlams23O+dzcrNdGElxXFiddVfLn/9TkcH3GH9umzt8Z4ZzaYwtdfxmhoWPQl8vySR05tF/w07BuwvwLna15h8701aP+NG9Ps2GUU7YW8TzMmhsFMHPCJ0mIB8O7PSOyk6WhWVSj8Y471/6YXHOte0ruPNfdKZGg/jinj4n5tfvSlr2bsr1JqVtZNHaT3oa6qipZWA2vK6slZh4qKZuncjru5qOfuq424zbpfVw6t2+a0lmN2qI38tF5KOxGZT3qK1+qFCEcE70+xaqEntNBfWWvSmknKuvFMo6cCi7drYpxm/Q+KspjYRYse5v63tWcw6BrrBy5SW8kbR+R1RTq469/Z8q2ZuHQdp3oydtD59jpqzxmzkP4ahZn62zoQ2oeXLCTRW9ahbiMPPO9W72K53oNojK+kyNSZEs8NwrgZqTTLEgMO46eG7TkqVBdOmy3Hdbpy6tRPambtGaXyaqdLN0b2SSO7lTX5lA7VmaEW5PDI6MceNZmU16pzi9mTd19zOa+Fk+NfnKKoqi/LecUzSLzmPPYLX4lfmO/YVG/kZa/yMae8UYL8h9G82HlO2jSjyet9ItE62jt3EW2DJsUvBU9BBf7djdKurLlwfg5N0viON5k5vLwQtTNu3UAAD9XRIzlD7onH3dqqXeV6wffrPRy/TDzlXs7OQyvGc35pB6RJbcsg1c2/N/j+h1JBuDpdfAlm6kDxFKVnjUWG3R24oMOp7nhi5JPu3gmpO426TwRE1piT9IwnC1jYbN1QO5eEu8LOpyQXeJVbSluXpMLZ6O2BfCjnEMfhvNgLCuZR4U5S+9yKrANx9jmNblwbnp3iXsR//keS7jv+7zOhMKpT/goFvYyWZqz0JHXkBXhuL3lS2MjP4UzFx3F11vd5vWIsxZxteHM5rVY9rephbPu/XJhEA4Nxns1EyrCEf3ocG3CIXItfWrhXHurUB6Ls6CWzSicROw+4SJDuZInwuFiy86mCSdMa6GcYZ9aOE7JYpoU5nJU8VhF9WpANmb8xJAke47aTvB0zMle1/IXWOmuE8uNJb27lfHzIrnkSeHQqoMF4YhFqYPPt2f67UsvnPoB8CAl9WDkNOHI5QgVzlJehkHAZTgHKk1lqab5LZVcx+uGc21niBP5IKjD4V5vQJZXnd8UJrOj0qXtAbRba6fDeYib98xYrpO3rVj2H0c+N7tUa4TjTi+c+qSCZK1W6hYLNYnlL+qTX7jtfd51F7yu1RWiJI53lUWnhJkwx3Gwzx8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4H/xB12lLGbpEj5hAAAAAElFTkSuQmCC);
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+/* opcion con img comentada en el HTML */
+/* .container-logo{
+  width: 10%;
+  overflow: hidden;
+} */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul{
+  margin: 20px;
+  display: flex;
+}
+
+nav > ul > li{
+  width: 75px;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+}
+
+main > section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section > .card{
+  width: 30%;
+  margin: 10px;
+  border: 5px double red;
+  padding: 10px;
+  text-align: justify;
+}
+
+section > .card > img{
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer > form{
+  display: flex;
+  flex-direction: column;
+}
